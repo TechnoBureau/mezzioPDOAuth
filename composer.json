@@ -37,8 +37,15 @@
       "psr-4": {
           "TechnoBureau\\mezzioPDOAuth\\": "src/"
       }
-
   },
+  "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laminas": {
+            "config-provider": "TechnoBureau\\mezzioPDOAuth\\ConfigProvider"
+        }
+    },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "scripts": {
